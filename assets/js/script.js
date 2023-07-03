@@ -43,7 +43,7 @@ $(function() {
     savedEvents[timeBlockId] = description;
     localStorage.setItem(timeBlockId, description);
   }
-
+// to retreive saved data from local storage
   function retrieveSavedEvents() {
     $(".time-block").each(function() {
       var timeBlockId = $(this).attr("id");
